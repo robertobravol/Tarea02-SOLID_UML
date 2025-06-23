@@ -31,9 +31,31 @@ public class Vuelo {
         }
     }
 
-    public void setDisponible(Boolean bool){
-    
+    public void cambiarItinerario(String nuevoOrigen, String nuevoDestino, String nuevaAerolinea) {
+        this.origen = nuevoOrigen;
+        this.destino = nuevoDestino;
+        this.aerolinea = nuevaAerolinea;
+        // método referencial
     }
 
-    
+    // Getters (opcional)
+    public String getNum() {
+        return num;
+    }
+
+    public String getOrigen() {
+        return origen;
+    }
+
+    public String getDestino() {
+        return destino;
+    }
+
+    public String getAerolinea() {
+        return aerolinea;
+    }
+
+    public List<Asientos> getAsientos() {
+        return asientos;
+    }
 }
