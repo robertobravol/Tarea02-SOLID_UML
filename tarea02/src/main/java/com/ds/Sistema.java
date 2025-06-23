@@ -1,7 +1,6 @@
 package com.ds;
 
 public class Sistema {
-<<<<<<< Updated upstream
 
     public void registrarCambio(Vuelo vuelo, String nuevoOrigen, String nuevoDestino, String nuevaAerolinea) {
         vuelo.cambiarItinerario(nuevoOrigen, nuevoDestino, nuevaAerolinea);
@@ -11,11 +10,9 @@ public class Sistema {
     public void notificarUsuarios(Vuelo vuelo) {
         vuelo.verReservas();
     }
-}
-=======
+    
     public void reportarProblema(){
         Agente agente = new Agente();
         agente.registrarReporte();
     }
 }
->>>>>>> Stashed changes
