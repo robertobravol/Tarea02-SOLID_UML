@@ -17,4 +17,10 @@ public class Vuelo {
     public void verReservas(){
         
     }
+
+    public void setDisponible(Boolean bool){
+    
+    }
+
+    
 }
